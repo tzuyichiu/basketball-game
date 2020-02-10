@@ -25,3 +25,7 @@ $ cd ../..
 $ cmake/build/pgm
 ```
 (note: the build directory is temporary and can be removed safely)
+
+## Further details
+
+Please refer to **INF443_Rapport.pdf** (in French) for further details.
