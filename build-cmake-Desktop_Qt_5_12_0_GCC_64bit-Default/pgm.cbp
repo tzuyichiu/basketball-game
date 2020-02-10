@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="pgm" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\glfw3\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pgm">
+         <Option output="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/pgm" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/cmake/../src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 pgm" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="pgm/fast">
+         <Option output="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/pgm" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DIMGUI_IMPL_OPENGL_LOADER_GLAD" />
+            <Add option="-DGLFW_DLL" />
+            <Add directory="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/cmake/../src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 pgm/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/build-cmake-Desktop_Qt_5_12_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/glad/src/glad.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_demo.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_draw.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_impl_glfw.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_impl_opengl3.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_widgets.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/lodepng/lodepng.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/simplexnoise/simplexnoise1234.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/00_introduction/00_introduction.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/01_modelisation.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/01_modelisation_solution.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/01_modelisation_v2.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/03_solution.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/02_texture_solution.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/example_billboard.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/example_perlin.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/example_texture.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/03_animation/example_animated_hierarchy.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/03_animation/example_interpolation.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/04_simulation/example_mass_spring.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/04_simulation/example_sphere_gravity.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/base_exercise/base_exercise.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/helper_scene.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/main.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/curve_drawable/curve_drawable.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/curve_dynamic_drawable/curve_dynamic_drawable.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/drawable_uniform/drawable_uniform.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/mesh_drawable/mesh_drawable.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/mesh_drawable_hierarchy/mesh_drawable_hierarchy.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/segment_drawable_immediate_mode/segment_drawable_immediate_mode.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/segments_drawable/segments_drawable.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/helper/file/file.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/helper/string/string.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat2/mat2.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat3/mat3.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat4/mat4.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/numerics/numerics.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/transformation/transformation.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec2/vec2.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec3/vec3.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec4/vec4.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/curve_gpu/curve_gpu.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/debug/opengl_debug.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/mesh_gpu/mesh_gpu.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/segments_gpu/segments_gpu.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/shader/shader.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/texture/image/image.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/texture/texture_gpu/texture_gpu.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/uniform/uniform.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/camera/camera.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/camera_control_glfw/camera_control_glfw.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/picking/info/picking_info.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/picking/primitives/picking_primitives.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/picking/ray/picking_ray.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/screen_motion/screen_motion.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/time_period/time_period.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/time_slider/time_slider.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh_loader/obj/obj.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh_primitive/mesh_primitive.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh_structure/mesh.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/glfw/fps_counter/fps_counter.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/glfw/window/window.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/imgui/imgui.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/lodepng/lodepng.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/perlin/perlin.cpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/glad/include/glad/glad.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imconfig.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_impl_glfw.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_impl_opengl3.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imgui_internal.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imstb_rectpack.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imstb_textedit.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/imgui/imstb_truetype.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/lodepng/lodepng.h">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/external/simplexnoise/simplexnoise1234.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/curve/shader.frag.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/curve/shader.vert.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/mesh/shader.frag.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/mesh/shader.vert.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/segment_immediate_mode/shader.frag.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/segment_immediate_mode/shader.vert.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/wireframe/shader.frag.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/wireframe/shader.geom.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/shaders/wireframe/shader.vert.glsl">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercise_current.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/00_introduction/00_introduction.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/01_modelisation.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/01_modelisation_solution.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/01_modelisation_v2.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/01_modelisation/03_solution.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/02_texture_solution.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/example_billboard.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/example_perlin.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/02_texture/example_texture.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/03_animation/example_animated_hierarchy.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/03_animation/example_interpolation.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/04_simulation/example_mass_spring.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/04_simulation/example_sphere_gravity.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/base_exercise/base_exercise.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/exercises/exercises.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/helper_scene.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/core.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/curve_drawable/curve_drawable.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/curve_dynamic_drawable/curve_dynamic_drawable.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/drawable.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/drawable_uniform/drawable_uniform.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/mesh_drawable/mesh_drawable.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/mesh_drawable_hierarchy/mesh_drawable_hierarchy.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/segment_drawable_immediate_mode/segment_drawable_immediate_mode.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/drawable/segments_drawable/segments_drawable.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/helper/file/file.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/helper/helper.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/helper/string/string.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat/mat.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat2/mat2.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat3/mat3.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/mat/mat4/mat4.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/math.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/numerics/numerics.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/transformation/transformation.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec/vec.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec2/vec2.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec3/vec3.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/math/vec/vec4/vec4.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/curve_gpu/curve_gpu.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/debug/opengl_debug.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/mesh_gpu/mesh_gpu.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/opengl.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/segments_gpu/segments_gpu.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/shader/shader.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/texture/image/image.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/texture/texture.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/texture/texture_gpu/texture_gpu.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/opengl/uniform/uniform.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/camera/camera.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/camera_control_glfw/camera_control_glfw.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/picking/info/picking_info.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/picking/picking.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/picking/primitives/picking_primitives.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/picking/ray/picking_ray.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/scene.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/screen_motion/screen_motion.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/time_period/time_period.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/scene/time_slider/time_slider.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh_loader/mesh_loader.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh_loader/obj/obj.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh_primitive/mesh_primitive.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/mesh/mesh_structure/mesh.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/core/shape/shape.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/external_lib.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/glfw/fps_counter/fps_counter.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/glfw/glfw.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/glfw/window/window.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/headers/glad.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/headers/glfw.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/headers/imgui.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/headers/lodepng.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/headers/simplexnoise.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/imgui/imgui.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/lodepng/lodepng.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/external_lib/perlin/perlin.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/src/vcl/vcl.hpp">
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/cmake/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/cmake/../../../../../../../../usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\glfw3\" />
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/cmake/../../../../../../../../usr/lib64/cmake/glfw3/glfw3Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\glfw3\" />
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/cmake/../../../../../../../../usr/lib64/cmake/glfw3/glfw3Targets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\glfw3\" />
+      </Unit>
+      <Unit filename="/users/eleves-b/2017/clement.barbier/INF443/TD4/vcl/cmake/../../../../../../../../usr/lib64/cmake/glfw3/glfw3Targets-noconfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib64\cmake\glfw3\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
